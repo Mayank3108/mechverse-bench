@@ -1,0 +1,142 @@
+======================================================================
+  MECHVERSE ASSESSMENT — pass@2 RESULTS
+======================================================================
+
+  OVERALL pass@2 ACCURACY
+----------------------------------------------------------------------
+  Model               query_wo    query_cot
+----------------------------------------------------------------------
+  GPT                    49.2%        55.4%
+  OPUS                   46.2%        66.2%
+  GEMINI                 70.8%        70.8%
+----------------------------------------------------------------------
+  (Random chance baseline: 25.0%)
+
+
+  pass@2 BY DIMENSION
+----------------------------------------------------------------------
+
+  Joint / Constraint Reasoning
+  Model               query_wo    query_cot
+  ----------------------------------------
+  GPT                    33.3%        33.3%
+  OPUS                   46.7%        53.3%
+  GEMINI                 53.3%        73.3%
+
+  Motion / Kinematic Reasoning
+  Model               query_wo    query_cot
+  ----------------------------------------
+  GPT                    33.3%        40.0%
+  OPUS                   33.3%        60.0%
+  GEMINI                 66.7%        66.7%
+
+  Path / Disassembly Reasoning
+  Model               query_wo    query_cot
+  ----------------------------------------
+  GPT                    40.0%        53.3%
+  OPUS                   40.0%        53.3%
+  GEMINI                 80.0%        66.7%
+
+  Sequence / Precedence Reasoning
+  Model               query_wo    query_cot
+  ----------------------------------------
+  GPT                    80.0%        85.0%
+  OPUS                   60.0%        90.0%
+  GEMINI                 80.0%        75.0%
+
+
+  pass@2 BY CATEGORY
+----------------------------------------------------------------------
+
+  Blocking Part Identification
+  Model               query_wo    query_cot     n
+  ------------------------------------------------
+  GPT                    80.0%        80.0%     5
+  OPUS                   40.0%        60.0%     5
+  GEMINI                 80.0%        60.0%     5
+
+  Dependency Chain Length
+  Model               query_wo    query_cot     n
+  ------------------------------------------------
+  GPT                    60.0%        60.0%     5
+  OPUS                   60.0%       100.0%     5
+  GEMINI                 80.0%        80.0%     5
+
+  First Removal Prediction
+  Model               query_wo    query_cot     n
+  ------------------------------------------------
+  GPT                   100.0%       100.0%     5
+  OPUS                   80.0%       100.0%     5
+  GEMINI                 80.0%        60.0%     5
+
+  Independent Subassembly Detection
+  Model               query_wo    query_cot     n
+  ------------------------------------------------
+  GPT                    80.0%       100.0%     5
+  OPUS                   60.0%       100.0%     5
+  GEMINI                 80.0%       100.0%     5
+
+  Joint Axis Identification
+  Model               query_wo    query_cot     n
+  ------------------------------------------------
+  GPT                    20.0%        20.0%     5
+  OPUS                   60.0%        40.0%     5
+  GEMINI                 20.0%        40.0%     5
+
+  Joint Location Estimation
+  Model               query_wo    query_cot     n
+  ------------------------------------------------
+  GPT                    40.0%        60.0%     5
+  OPUS                   40.0%        60.0%     5
+  GEMINI                 80.0%       100.0%     5
+
+  Joint Type Identification
+  Model               query_wo    query_cot     n
+  ------------------------------------------------
+  GPT                    40.0%        20.0%     5
+  OPUS                   40.0%        60.0%     5
+  GEMINI                 60.0%        80.0%     5
+
+  Motion Coupling Detection
+  Model               query_wo    query_cot     n
+  ------------------------------------------------
+  GPT                    40.0%        60.0%     5
+  OPUS                   40.0%        80.0%     5
+  GEMINI                100.0%        80.0%     5
+
+  Motion Type Identification
+  Model               query_wo    query_cot     n
+  ------------------------------------------------
+  GPT                    20.0%        40.0%     5
+  OPUS                   20.0%        40.0%     5
+  GEMINI                 60.0%        60.0%     5
+
+  Multi-Direction Feasibility
+  Model               query_wo    query_cot     n
+  ------------------------------------------------
+  GPT                    20.0%        40.0%     5
+  OPUS                   40.0%        80.0%     5
+  GEMINI                100.0%        40.0%     5
+
+  Obstruction Identification
+  Model               query_wo    query_cot     n
+  ------------------------------------------------
+  GPT                    40.0%        20.0%     5
+  OPUS                   40.0%        40.0%     5
+  GEMINI                 40.0%        60.0%     5
+
+  Primary Motion Axis
+  Model               query_wo    query_cot     n
+  ------------------------------------------------
+  GPT                    40.0%        20.0%     5
+  OPUS                   40.0%        60.0%     5
+  GEMINI                 40.0%        60.0%     5
+
+  Removal Direction Identification
+  Model               query_wo    query_cot     n
+  ------------------------------------------------
+  GPT                    60.0%       100.0%     5
+  OPUS                   40.0%        40.0%     5
+  GEMINI                100.0%       100.0%     5
+
+======================================================================

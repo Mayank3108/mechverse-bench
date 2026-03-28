@@ -1,0 +1,584 @@
+{
+  "gpt": {
+    "wo": {
+      "overall": {
+        "passed": 32,
+        "total": 65,
+        "pct": 49.2
+      },
+      "by_dimension": {
+        "Joint / Constraint Reasoning": {
+          "passed": 5,
+          "total": 15,
+          "pct": 33.3
+        },
+        "Motion / Kinematic Reasoning": {
+          "passed": 5,
+          "total": 15,
+          "pct": 33.3
+        },
+        "Path / Disassembly Reasoning": {
+          "passed": 6,
+          "total": 15,
+          "pct": 40.0
+        },
+        "Sequence / Precedence Reasoning": {
+          "passed": 16,
+          "total": 20,
+          "pct": 80.0
+        }
+      },
+      "by_category": {
+        "Blocking Part Identification": {
+          "passed": 4,
+          "total": 5,
+          "pct": 80.0
+        },
+        "Dependency Chain Length": {
+          "passed": 3,
+          "total": 5,
+          "pct": 60.0
+        },
+        "First Removal Prediction": {
+          "passed": 5,
+          "total": 5,
+          "pct": 100.0
+        },
+        "Independent Subassembly Detection": {
+          "passed": 4,
+          "total": 5,
+          "pct": 80.0
+        },
+        "Joint Axis Identification": {
+          "passed": 1,
+          "total": 5,
+          "pct": 20.0
+        },
+        "Joint Location Estimation": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        },
+        "Joint Type Identification": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        },
+        "Motion Coupling Detection": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        },
+        "Motion Type Identification": {
+          "passed": 1,
+          "total": 5,
+          "pct": 20.0
+        },
+        "Multi-Direction Feasibility": {
+          "passed": 1,
+          "total": 5,
+          "pct": 20.0
+        },
+        "Obstruction Identification": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        },
+        "Primary Motion Axis": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        },
+        "Removal Direction Identification": {
+          "passed": 3,
+          "total": 5,
+          "pct": 60.0
+        }
+      }
+    },
+    "cot": {
+      "overall": {
+        "passed": 36,
+        "total": 65,
+        "pct": 55.4
+      },
+      "by_dimension": {
+        "Joint / Constraint Reasoning": {
+          "passed": 5,
+          "total": 15,
+          "pct": 33.3
+        },
+        "Motion / Kinematic Reasoning": {
+          "passed": 6,
+          "total": 15,
+          "pct": 40.0
+        },
+        "Path / Disassembly Reasoning": {
+          "passed": 8,
+          "total": 15,
+          "pct": 53.3
+        },
+        "Sequence / Precedence Reasoning": {
+          "passed": 17,
+          "total": 20,
+          "pct": 85.0
+        }
+      },
+      "by_category": {
+        "Blocking Part Identification": {
+          "passed": 4,
+          "total": 5,
+          "pct": 80.0
+        },
+        "Dependency Chain Length": {
+          "passed": 3,
+          "total": 5,
+          "pct": 60.0
+        },
+        "First Removal Prediction": {
+          "passed": 5,
+          "total": 5,
+          "pct": 100.0
+        },
+        "Independent Subassembly Detection": {
+          "passed": 5,
+          "total": 5,
+          "pct": 100.0
+        },
+        "Joint Axis Identification": {
+          "passed": 1,
+          "total": 5,
+          "pct": 20.0
+        },
+        "Joint Location Estimation": {
+          "passed": 3,
+          "total": 5,
+          "pct": 60.0
+        },
+        "Joint Type Identification": {
+          "passed": 1,
+          "total": 5,
+          "pct": 20.0
+        },
+        "Motion Coupling Detection": {
+          "passed": 3,
+          "total": 5,
+          "pct": 60.0
+        },
+        "Motion Type Identification": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        },
+        "Multi-Direction Feasibility": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        },
+        "Obstruction Identification": {
+          "passed": 1,
+          "total": 5,
+          "pct": 20.0
+        },
+        "Primary Motion Axis": {
+          "passed": 1,
+          "total": 5,
+          "pct": 20.0
+        },
+        "Removal Direction Identification": {
+          "passed": 5,
+          "total": 5,
+          "pct": 100.0
+        }
+      }
+    }
+  },
+  "opus": {
+    "wo": {
+      "overall": {
+        "passed": 30,
+        "total": 65,
+        "pct": 46.2
+      },
+      "by_dimension": {
+        "Joint / Constraint Reasoning": {
+          "passed": 7,
+          "total": 15,
+          "pct": 46.7
+        },
+        "Motion / Kinematic Reasoning": {
+          "passed": 5,
+          "total": 15,
+          "pct": 33.3
+        },
+        "Path / Disassembly Reasoning": {
+          "passed": 6,
+          "total": 15,
+          "pct": 40.0
+        },
+        "Sequence / Precedence Reasoning": {
+          "passed": 12,
+          "total": 20,
+          "pct": 60.0
+        }
+      },
+      "by_category": {
+        "Blocking Part Identification": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        },
+        "Dependency Chain Length": {
+          "passed": 3,
+          "total": 5,
+          "pct": 60.0
+        },
+        "First Removal Prediction": {
+          "passed": 4,
+          "total": 5,
+          "pct": 80.0
+        },
+        "Independent Subassembly Detection": {
+          "passed": 3,
+          "total": 5,
+          "pct": 60.0
+        },
+        "Joint Axis Identification": {
+          "passed": 3,
+          "total": 5,
+          "pct": 60.0
+        },
+        "Joint Location Estimation": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        },
+        "Joint Type Identification": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        },
+        "Motion Coupling Detection": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        },
+        "Motion Type Identification": {
+          "passed": 1,
+          "total": 5,
+          "pct": 20.0
+        },
+        "Multi-Direction Feasibility": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        },
+        "Obstruction Identification": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        },
+        "Primary Motion Axis": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        },
+        "Removal Direction Identification": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        }
+      }
+    },
+    "cot": {
+      "overall": {
+        "passed": 43,
+        "total": 65,
+        "pct": 66.2
+      },
+      "by_dimension": {
+        "Joint / Constraint Reasoning": {
+          "passed": 8,
+          "total": 15,
+          "pct": 53.3
+        },
+        "Motion / Kinematic Reasoning": {
+          "passed": 9,
+          "total": 15,
+          "pct": 60.0
+        },
+        "Path / Disassembly Reasoning": {
+          "passed": 8,
+          "total": 15,
+          "pct": 53.3
+        },
+        "Sequence / Precedence Reasoning": {
+          "passed": 18,
+          "total": 20,
+          "pct": 90.0
+        }
+      },
+      "by_category": {
+        "Blocking Part Identification": {
+          "passed": 3,
+          "total": 5,
+          "pct": 60.0
+        },
+        "Dependency Chain Length": {
+          "passed": 5,
+          "total": 5,
+          "pct": 100.0
+        },
+        "First Removal Prediction": {
+          "passed": 5,
+          "total": 5,
+          "pct": 100.0
+        },
+        "Independent Subassembly Detection": {
+          "passed": 5,
+          "total": 5,
+          "pct": 100.0
+        },
+        "Joint Axis Identification": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        },
+        "Joint Location Estimation": {
+          "passed": 3,
+          "total": 5,
+          "pct": 60.0
+        },
+        "Joint Type Identification": {
+          "passed": 3,
+          "total": 5,
+          "pct": 60.0
+        },
+        "Motion Coupling Detection": {
+          "passed": 4,
+          "total": 5,
+          "pct": 80.0
+        },
+        "Motion Type Identification": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        },
+        "Multi-Direction Feasibility": {
+          "passed": 4,
+          "total": 5,
+          "pct": 80.0
+        },
+        "Obstruction Identification": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        },
+        "Primary Motion Axis": {
+          "passed": 3,
+          "total": 5,
+          "pct": 60.0
+        },
+        "Removal Direction Identification": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        }
+      }
+    }
+  },
+  "gemini": {
+    "wo": {
+      "overall": {
+        "passed": 46,
+        "total": 65,
+        "pct": 70.8
+      },
+      "by_dimension": {
+        "Joint / Constraint Reasoning": {
+          "passed": 8,
+          "total": 15,
+          "pct": 53.3
+        },
+        "Motion / Kinematic Reasoning": {
+          "passed": 10,
+          "total": 15,
+          "pct": 66.7
+        },
+        "Path / Disassembly Reasoning": {
+          "passed": 12,
+          "total": 15,
+          "pct": 80.0
+        },
+        "Sequence / Precedence Reasoning": {
+          "passed": 16,
+          "total": 20,
+          "pct": 80.0
+        }
+      },
+      "by_category": {
+        "Blocking Part Identification": {
+          "passed": 4,
+          "total": 5,
+          "pct": 80.0
+        },
+        "Dependency Chain Length": {
+          "passed": 4,
+          "total": 5,
+          "pct": 80.0
+        },
+        "First Removal Prediction": {
+          "passed": 4,
+          "total": 5,
+          "pct": 80.0
+        },
+        "Independent Subassembly Detection": {
+          "passed": 4,
+          "total": 5,
+          "pct": 80.0
+        },
+        "Joint Axis Identification": {
+          "passed": 1,
+          "total": 5,
+          "pct": 20.0
+        },
+        "Joint Location Estimation": {
+          "passed": 4,
+          "total": 5,
+          "pct": 80.0
+        },
+        "Joint Type Identification": {
+          "passed": 3,
+          "total": 5,
+          "pct": 60.0
+        },
+        "Motion Coupling Detection": {
+          "passed": 5,
+          "total": 5,
+          "pct": 100.0
+        },
+        "Motion Type Identification": {
+          "passed": 3,
+          "total": 5,
+          "pct": 60.0
+        },
+        "Multi-Direction Feasibility": {
+          "passed": 5,
+          "total": 5,
+          "pct": 100.0
+        },
+        "Obstruction Identification": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        },
+        "Primary Motion Axis": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        },
+        "Removal Direction Identification": {
+          "passed": 5,
+          "total": 5,
+          "pct": 100.0
+        }
+      }
+    },
+    "cot": {
+      "overall": {
+        "passed": 46,
+        "total": 65,
+        "pct": 70.8
+      },
+      "by_dimension": {
+        "Joint / Constraint Reasoning": {
+          "passed": 11,
+          "total": 15,
+          "pct": 73.3
+        },
+        "Motion / Kinematic Reasoning": {
+          "passed": 10,
+          "total": 15,
+          "pct": 66.7
+        },
+        "Path / Disassembly Reasoning": {
+          "passed": 10,
+          "total": 15,
+          "pct": 66.7
+        },
+        "Sequence / Precedence Reasoning": {
+          "passed": 15,
+          "total": 20,
+          "pct": 75.0
+        }
+      },
+      "by_category": {
+        "Blocking Part Identification": {
+          "passed": 3,
+          "total": 5,
+          "pct": 60.0
+        },
+        "Dependency Chain Length": {
+          "passed": 4,
+          "total": 5,
+          "pct": 80.0
+        },
+        "First Removal Prediction": {
+          "passed": 3,
+          "total": 5,
+          "pct": 60.0
+        },
+        "Independent Subassembly Detection": {
+          "passed": 5,
+          "total": 5,
+          "pct": 100.0
+        },
+        "Joint Axis Identification": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        },
+        "Joint Location Estimation": {
+          "passed": 5,
+          "total": 5,
+          "pct": 100.0
+        },
+        "Joint Type Identification": {
+          "passed": 4,
+          "total": 5,
+          "pct": 80.0
+        },
+        "Motion Coupling Detection": {
+          "passed": 4,
+          "total": 5,
+          "pct": 80.0
+        },
+        "Motion Type Identification": {
+          "passed": 3,
+          "total": 5,
+          "pct": 60.0
+        },
+        "Multi-Direction Feasibility": {
+          "passed": 2,
+          "total": 5,
+          "pct": 40.0
+        },
+        "Obstruction Identification": {
+          "passed": 3,
+          "total": 5,
+          "pct": 60.0
+        },
+        "Primary Motion Axis": {
+          "passed": 3,
+          "total": 5,
+          "pct": 60.0
+        },
+        "Removal Direction Identification": {
+          "passed": 5,
+          "total": 5,
+          "pct": 100.0
+        }
+      }
+    }
+  }
+}

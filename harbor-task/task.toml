@@ -1,0 +1,47 @@
+version = "1.0"
+
+[metadata]
+author_name        = "Mayank"
+author_email       = "pate1421@purdue.edu"
+task_name          = "mechverse-spatial-reasoning"
+description        = """
+MechVerse is a visual multiple-choice benchmark that evaluates whether
+frontier VLMs can reason about 3D mechanical assemblies. Tasks span four
+dimensions: Path/Disassembly Reasoning, Sequence/Precedence Reasoning,
+Motion/Kinematic Reasoning, and Joint/Constraint Reasoning. Each task
+presents a CAD-rendered assembly image with color-coded parts and a
+coordinate axes indicator, and asks the model to answer a spatial
+reasoning question by selecting from four choices (A, B, C, D).
+"""
+difficulty_explanation = """
+All three frontier models (GPT-5.4, Opus 4.6, Gemini 3.1 Pro) score
+between 46-71% overall on pass@2, with the hardest categories
+(Joint Axis Identification, Motion Type Identification, Obstruction
+Identification) dropping to 20-40% — barely above the 25% random
+baseline. A competent mechanical engineer solves these tasks reliably
+from visual inspection alone.
+"""
+domain             = "mechanical-engineering"
+task_type          = "visual-multiple-choice"
+capability_tested  = "3D spatial reasoning, kinematic reasoning, assembly constraint understanding"
+tags               = [
+    "cad",
+    "mechanical-assembly",
+    "spatial-reasoning",
+    "visual-reasoning",
+    "mcq",
+    "multimodal",
+    "kinematics",
+    "disassembly",
+]
+num_questions      = 65
+num_categories     = 13
+num_dimensions     = 4
+num_images         = 34
+random_baseline    = 0.25
+
+
+
+[solution]
+# No special env needed for oracle solution
+
